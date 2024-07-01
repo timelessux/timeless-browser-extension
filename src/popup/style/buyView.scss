@@ -1,0 +1,19 @@
+.buy-page {
+  .choose-price-group {
+    background: rgba($color: #959595, $alpha: 0.25);
+    border: 0.25px solid #ffffff66;
+    border-radius: 50px;
+    button {
+      border: none;
+      outline: none;
+      background: transparent;
+      color: #fff;
+      transition: 0.2s all linear;
+      border-radius: 50px;
+
+      &.--active {
+        background: rgba($color: #fff, $alpha: 0.25);
+      }
+    }
+  }
+}

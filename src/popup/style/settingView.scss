@@ -1,0 +1,64 @@
+.setting-page {
+  .search-box-token {
+    width: 100%;
+    min-height: 52px;
+    border: 1px solid transparent;
+    transition: 0.2s all linear;
+
+    &:focus-within {
+      border: 1px solid #fff;
+    }
+
+    input {
+      outline: none;
+      width: 100%;
+      color: #fff;
+      background-color: transparent;
+      border: none;
+      &::placeholder {
+        color: rgba($color: #fff, $alpha: 0.6);
+      }
+    }
+
+    .delete-search {
+      color: rgba($color: #fff, $alpha: 0.5);
+      transition: 0.2s all linear;
+      &:hover {
+        color: rgba($color: #fff, $alpha: 1);
+      }
+    }
+  }
+  .token-setting-view {
+    .loading-view {
+      background-color: rgba($color: #000, $alpha: 0.5);
+    }
+  }
+
+  .setting-item {
+    font-size: 18px;
+    &:not(:last-child) {
+      border-bottom: 1px solid #fff;
+    }
+    transition: 0.2s all linear;
+  }
+
+  .left-background {
+    background: rgba(0, 0, 0, 0.0784313725);
+    position: absolute;
+    border-radius: 44px 0 0 44px;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+  }
+
+  .list-token {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.2s all linear;
+    &.--open {
+      height: auto;
+      opacity: 1;
+    }
+  }
+}

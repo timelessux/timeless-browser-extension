@@ -1,0 +1,15 @@
+.tutorial {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: #13131499;
+  mix-blend-mode: hard-light;
+  transition: 1s all linear;
+  &.--reload {
+    background: #000;
+  }
+  .highlight {
+    transition: background-color 200ms linear;
+  }
+}

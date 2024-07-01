@@ -1,0 +1,65 @@
+.lock-page {
+  .group-input-password {
+    height: 44px;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow:
+      inset 0 0 1px 0 rgba(255, 255, 255, 0.3),
+      inset 1px 1px 4px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 21.76px;
+    border: 1px solid transparent !important;
+    transition: 0.2s all linear;
+
+    &:focus-within {
+      // border: 1px solid rgba(0, 0, 0, 0.09) !important;
+    }
+
+    .key-icon {
+      transform: rotate(90deg);
+    }
+
+    .input-password {
+      background: transparent;
+      color: #fff;
+      border: none;
+      outline: none;
+      transition: 0.2s all linear;
+      &::placeholder {
+        color: rgba($color: #fff, $alpha: 0.6);
+      }
+    }
+  }
+  .confirm-button {
+    outline: none;
+    border: none !important;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow:
+      inset 0 0 1px 0 rgba(255, 255, 255, 0.3),
+      inset 1px 1px 4px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 50%;
+    width: 44px;
+    height: auto;
+    aspect-ratio: 1;
+    color: #fff;
+
+    &:disabled {
+      color: rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  .title-lock {
+    font-family: 'Bold';
+    font-size: 70px;
+    margin-top: 10px;
+    height: 80px;
+    word-break: break-word;
+  }
+
+  .sub-title-lock {
+    font-family: 'Regular';
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 60px;
+    margin-bottom: 40px;
+    word-break: break-word;
+  }
+}

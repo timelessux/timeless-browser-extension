@@ -1,0 +1,51 @@
+.confirm-modal {
+  .confirm-inner {
+    border: 1px solid;
+    backdrop-filter: blur(50px);
+    background: rgba(149, 149, 149, 0.25);
+    border-radius: 46px;
+    border-color: rgba(255, 255, 255, 0.25);
+    font-family: "Bold";
+
+    .title {
+      color: #fff;
+      font-size: 18px;
+      word-break: break-word;
+    }
+    .sub-title {
+      color: #fff;
+      font-size: 16px;
+      font-family: "Regular";
+      opacity: 0.8;
+      word-break: break-word;
+    }
+
+    .line-top {
+      border-top: 1px solid rgba($color: #fff, $alpha: 0.2);
+    }
+
+    .cancel-button,
+    .confirm-button {
+      border: none;
+      outline: none;
+      background: transparent;
+      font-family: "Medium";
+      font-size: 18px;
+      border-radius: 16px;
+    }
+
+    .cancel-button {
+      color: #fff;
+    }
+
+    .confirm-button {
+      color: #fff;
+      &.--delete {
+        color: #dc143c;
+        &:hover {
+          color: #dc143c !important;
+        }
+      }
+    }
+  }
+}

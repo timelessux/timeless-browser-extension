@@ -1,0 +1,240 @@
+.articleDetailViewContainer {
+  height: 100%;
+  transition: 0.2s all linear;
+  min-width: 100%;
+
+  .contentWrapper {
+    display: flex;
+    height: 100%;
+    transition: 0.2s all linear;
+    overflow: hidden;
+
+    .leftContent {
+      flex: 4;
+
+      .image-container {
+        border-radius: 0;
+        background-color: rgba($color: #000000, $alpha: 0.2);
+      }
+
+      .thumbnailWrapper {
+        height: 100%;
+        width: 100%;
+        filter: blur(25px);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.5;
+      }
+
+      .thumbnail {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+
+      .gr-button {
+        bottom: 16px;
+        right: 0;
+        button {
+          width: 44px;
+          height: 44px;
+          min-width: 44px;
+          outline: none;
+          border: none;
+          border-radius: 50%;
+          color: #fff;
+          background-color: #ffffff33;
+          transition: 0.2s all linear;
+        }
+      }
+
+      &.--colapse {
+        .thumbnail-colapse {
+          min-width: 632px;
+          max-width: 632px;
+          border-radius: 44px;
+        }
+
+        button {
+          border: none;
+          outline: none;
+          color: #fff;
+          background-color: rgba(255, 255, 255, 0.2);
+          transition: 0.2s all linear;
+        }
+
+        .back-button {
+          border-radius: 50%;
+          width: 44px;
+          height: auto;
+          aspect-ratio: 1;
+        }
+
+        .collapse-button {
+          border-radius: 10px;
+        }
+
+        .image-container {
+          border-radius: 44px;
+          background-color: transparent;
+          display: flex;
+          justify-content: center;
+        }
+
+        .name {
+          font-family: Bold;
+          font-size: 28px;
+        }
+      }
+    }
+
+    .rightContent {
+      flex: 3;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 30px 30px 0px 30px;
+
+      .goBackButton {
+        width: 44px;
+        height: 44px;
+        outline: none;
+        border: none;
+        border-radius: 50%;
+        color: #fff;
+        background-color: #ffffff33;
+        transition: 0.2s all linear;
+      }
+
+      .title {
+        font-family: 'Bold';
+        font-size: 42px;
+        padding-right: 32px;
+        word-break: break-word;
+      }
+
+      .box-grey {
+        border-radius: 12px;
+        width: 100%;
+        font-size: 15px;
+
+        .info-item {
+          border-bottom: 1px solid rgba(149, 149, 149, 0.25);
+          div {
+            &:nth-child(1) {
+              white-space: nowrap;
+              margin-right: 10px;
+            }
+            &:nth-child(2) {
+              word-break: break-word;
+            }
+          }
+          &:last-child {
+            border: none;
+          }
+        }
+      }
+
+      .reasonWrapper {
+        .title {
+          font-family: 'Medium';
+          font-size: 18px;
+          color: rgba($color: #ffffff, $alpha: 0.96);
+        }
+
+        .collapse-button {
+          border-radius: 50%;
+          border: none;
+          outline: none;
+          width: 26px;
+          height: auto;
+          aspect-ratio: 1;
+          color: #fff;
+          background-color: rgba(255, 255, 255, 0.2);
+          transition: 0.2s all linear;
+          font-size: 24px;
+        }
+
+        .reasonCollapse {
+          background: rgba(0, 0, 0, 0.1);
+          box-shadow:
+            inset 0 0 1px 0 rgba(255, 255, 255, 0.3),
+            inset 1px 1px 4px 0 rgba(0, 0, 0, 0.08);
+          border-radius: 12px;
+          padding: 4px 0px;
+
+          .reasonItem {
+            padding: 0px 8px;
+
+            .circleIcon {
+              width: 25px;
+              height: 25px;
+              border-radius: 50%;
+              margin-right: 8px;
+              background-color: rgba($color: #000000, $alpha: 0.2);
+            }
+
+            .ant-collapse-header {
+              .ant-collapse-expand-icon {
+                color: white;
+              }
+            }
+
+            .reasonContent {
+              color: white;
+              opacity: 0.5;
+            }
+
+            .ant-collapse-header-text {
+              color: white;
+            }
+          }
+        }
+      }
+
+      .tag {
+        display: inline-block;
+        font-size: 11px;
+        line-height: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1.65px;
+        white-space: nowrap;
+        border-radius: 4px;
+        padding: 4px 8px;
+        color: rgb(255, 255, 255);
+        background: rgb(36, 35, 35);
+      }
+
+      .threeDot {
+        cursor: pointer;
+      }
+    }
+
+    .ant-divider {
+      margin: 0;
+      margin-bottom: 8px;
+    }
+
+    .content-description {
+      word-break: break-word;
+    }
+
+    .linkContainer {
+      align-self: center;
+      margin-bottom: 27px;
+
+      a {
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}

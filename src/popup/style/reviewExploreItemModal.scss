@@ -1,0 +1,115 @@
+.reviewExploreItemModalContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+
+  .closeButton {
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgba($color: #fff, $alpha: 0.3);
+  }
+
+  .ant-tabs {
+    .ant-tabs-nav {
+      .ant-tabs-nav-list {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .ant-tabs-tab {
+        padding: 8px 32px;
+        border-radius: 99px;
+        color: white;
+
+        .ant-tabs-tab-btn {
+          font-size: 17px;
+          color: #fff !important;
+        }
+
+        &:hover {
+          background-color: rgba($color: #fff, $alpha: 0.3);
+        }
+      }
+
+      .ant-tabs-tab-active {
+        background-color: rgba($color: #fff, $alpha: 0.3);
+      }
+
+      &::before {
+        border-bottom: none;
+      }
+
+      .ant-tabs-ink-bar {
+        display: none;
+      }
+    }
+  }
+
+  .infoTabContainer {
+    display: flex;
+    gap: 8px;
+
+    .infoContainer {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 8px;
+      padding: 4px;
+
+      p {
+        margin-bottom: 0px;
+        color: white;
+      }
+
+      .title {
+        font-size: 18px;
+        font-weight: bold;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1; /* number of lines to show */
+        -webkit-box-orient: vertical;
+      }
+
+      .description {
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* number of lines to show */
+        -webkit-box-orient: vertical;
+      }
+
+      .authorName {
+        font-size: 14px;
+        opacity: 0.6;
+      }
+    }
+
+    .buttonContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 16px;
+      flex: 1;
+
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        border: none;
+        border-radius: 12px;
+        padding: 12px 24px;
+        background-color: rgba($color: #fff, $alpha: 0.3);
+      }
+    }
+  }
+}

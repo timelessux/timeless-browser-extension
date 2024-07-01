@@ -1,0 +1,29 @@
+{
+    "rpc_urls": ["https://rpc.goerli.eth.gateway.fm"],
+    "chain_id": "5",
+    "block_explorer": "https://goerli.etherscan.io",
+    "testnet": true,
+    "icon": "https://ethereum.org/static/93dd8050765256931cd2f8408ac36898/a677a/eth-diamond-black-white.jpg",
+    "tokens": [
+        {
+            "token_symbol": "Goerli ETH",
+            "coin_symbol": "GETH",
+            "name": "Goerli ETH",
+            "address": "0x",
+            "default_decimals": 18,
+            "coingecko_token_id": "goerli-eth",
+            "coin_main_hex_color": "627EEA",
+            "about": "Goerli Testnet is an one of Ethereum Chain's many testnet that serves as a test environment for Ethereum developers, and is facing deprecation. It should also be noted that these testnet tokens can be obtained for free as it is meant for testing of Ethereum smart contract in a sandbox environment.",
+            "website": "",
+            "whitepaper": "",
+            "content": "",
+            "twitter": "",
+            "reddit": "",
+            "telegram": "",
+            "blockchain_explorer": "https://goerli.etherscan.io/",
+            "coingecko": "https://www.coingecko.com/en/coins/goerli-eth",
+            "messari": "https://messari.io/project/goerli-eth",
+            "erc20_address": "0xdd69db25f6d620a7bad3023c5d32761d353d3de9"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+.fullscreen-modal {
+  overflow: hidden;
+  max-width: 100vw !important;
+
+  .modal-inner {
+    width: fit-content;
+    max-width: 100%;
+    max-height: 90vh;
+
+    .fullscreen-model {
+      width: 90vh;
+      height: 90vh;
+
+      model-viewer {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .fullscreen-image {
+      img {
+        object-fit: contain;
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        max-height: calc(90vh - 28px);
+      }
+
+      .open-original {
+        height: 28px;
+        font-family: "Bold";
+        color: #fff;
+        display: flex;
+        align-items: flex-end;
+        width: fit-content;
+        font-size: 14px;
+        padding-top: 4px;
+        margin: auto;
+
+        &:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

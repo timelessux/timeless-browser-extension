@@ -1,0 +1,30 @@
+.header {
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1001;
+  padding: 20px 70px 10px 70px;
+  min-height: 71px;
+}
+
+.content {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+
+  .name-page {
+    font-family: 'Bold';
+    font-size: 35px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-transform: capitalize;
+    max-height: 44px;
+    min-height: 44px;
+  }
+
+  .page {
+    height: 100%;
+    padding: 0 24px 0 24px;
+  }
+}

@@ -1,0 +1,24 @@
+.vote-box {
+  border-radius: 16px;
+  border: 0.1px solid #fff;
+  transition: 0.2s all linear;
+  font-family: "Bold";
+  word-break: break-word;
+
+  .choice {
+    border-radius: 16px;
+    transition: 0.2s all linear;
+
+    .group-score {
+      font-size: 12px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+
+    &:hover {
+      background-color: rgba($color: #000000, $alpha: 0.5);
+    }
+  }
+}

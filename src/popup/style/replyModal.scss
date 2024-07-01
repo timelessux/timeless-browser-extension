@@ -1,0 +1,101 @@
+.reply-custom {
+  .ant-modal-mask {
+    background-color: rgba($color: #000000, $alpha: 0.8);
+    backdrop-filter: none;
+  }
+}
+
+.reply-modal {
+  color: #fff;
+  width: auto !important;
+  .modal-inner {
+    min-width: 708px;
+    max-width: 708px;
+  }
+  .reply-inner {
+    border-radius: 40px;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.25);
+    background: rgba(149, 149, 149, 0.25);
+    backdrop-filter: blur(50px);
+    font-size: 16px;
+
+    .close-bg {
+      background-color: #ffffff14;
+      padding: 5px;
+      border-radius: 50%;
+      width: 44px;
+      height: 44px;
+    }
+  }
+
+  .border-image {
+    width: 1px;
+    border: 1px solid;
+    border-color: rgba($color: #ffffff, $alpha: 0.5);
+    min-height: 80px;
+  }
+
+  .name {
+    font-family: "Bold";
+    font-size: 18px;
+  }
+  .handle,
+  .time,
+  .reply-to-text {
+    font-family: "Medium";
+    font-size: 15px;
+  }
+  .reply-to-text {
+    font-family: "Regular";
+    font-size: 15px;
+  }
+
+  .reply-input {
+    border-radius: 12px;
+    height: max-content;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.3), inset 1px 1px 4px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+
+    .text-area-custom {
+      background-color: transparent;
+      border: none;
+      color: #fff;
+      outline: none;
+      font-family: "Regular";
+      letter-spacing: 1px;
+      border-radius: 12px;
+      font-size: 14px;
+      border: 1px solid transparent;
+      transition: 0.2s all linear;
+      max-height: 200px;
+      max-width: 445px;
+      overflow: auto;
+      &:focus {
+        border: 1px solid #fff;
+      }
+    }
+    .text-area-custom[placeholder]:empty:before {
+      content: attr(placeholder);
+      color: rgba($color: #fff, $alpha: 0.5);
+    }
+
+    .text-area-custom[placeholder]:empty:focus:before {
+      content: "";
+    }
+  }
+  .post-button {
+    font-family: "Bold";
+    border: none;
+    color: #fff;
+    background-color: #ffffff33;
+    transition: 0.2s all linear;
+    height: 40px;
+    min-width: 85px;
+    border-radius: 22px;
+  }
+  .action {
+    font-size: 20px;
+  }
+}

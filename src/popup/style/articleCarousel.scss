@@ -1,0 +1,32 @@
+.carouselContainer {
+  padding: 0px 24px;
+
+  .carouselWrapper {
+    padding: 0px 8px;
+
+    .slick-arrow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      padding: 6px;
+      background-color: #ffffff33;
+      transition: 0.2s all linear;
+    }
+
+    .slick-arrow:hover {
+      background: rgba(0, 0, 0, 0.08) !important;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1) !important;
+    }
+  }
+
+  .carouselItemWrapper {
+    .carouselItem {
+      margin: 0px 8px;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+  }
+}

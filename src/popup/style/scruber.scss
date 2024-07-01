@@ -1,0 +1,27 @@
+.scrubber {
+  .bar {
+    top: 0 !important;
+    transform: translateX(0) !important;
+    height: 12px !important;
+    width: 100%;
+    border-radius: 16px;
+    .bar__progress {
+      background: rgba($color: #fff, $alpha: 0.5);
+      height: 100%;
+      border-radius: 16px;
+    }
+
+    .bar__thumb {
+      background: rgba($color: #fff, $alpha: 1);
+    }
+  }
+}
+.hover {
+  .bar {
+    height: 16px !important;
+  }
+  .bar__thumb {
+    width: 18px !important;
+    height: 18px !important;
+  }
+}

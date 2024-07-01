@@ -1,0 +1,76 @@
+.modal-base {
+  pointer-events: auto !important;
+  .modal-inner {
+    //please do not use background color here
+    padding: 16px;
+    border-radius: 16px;
+    z-index: 1000;
+
+    .ant-modal-header {
+      background-color: #000;
+      .ant-modal-title {
+        color: #fff;
+      }
+    }
+  }
+
+  .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    scale: 0.8;
+    transition: 0.1s linear;
+    &:hover {
+      scale: 0.9;
+    }
+    .close-bg {
+      background-color: #ffffff14;
+      padding: 5px;
+      border-radius: 25px;
+    }
+  }
+}
+
+.network-modal {
+  .modal-inner {
+    border: 1px solid;
+    backdrop-filter: blur(50px);
+    background: rgba(142, 136, 130, 0.96);
+    border: 1.36px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+  .title {
+    color: #fff;
+    font-size: 18px;
+    font-family: "bold";
+  }
+
+  .chain-button {
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: transparent;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    transition: 0.2s linear;
+
+    &.--active {
+      background-color: #3898ff !important;
+    }
+
+    &:hover {
+      background-color: #ffffff14;
+    }
+  }
+
+  .chain-name {
+    font-size: 18px;
+    font-family: "bold";
+  }
+}
+
+.ant-modal-mask {
+  backdrop-filter: blur(20px);
+}

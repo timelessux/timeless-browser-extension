@@ -1,0 +1,68 @@
+@import './breakpoint.scss';
+
+.articleBySectionContainer {
+  min-width: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .articleBySectionHeader {
+    display: flex;
+    margin-bottom: 16px;
+    column-gap: 16px;
+    padding: 30px 30px 0px 30px;
+
+    .goBackButton {
+      cursor: pointer;
+      width: 44px;
+      height: 44px;
+      outline: none;
+      border: none;
+      border-radius: 50%;
+      color: #fff;
+      background-color: #ffffff33;
+      transition: 0.2s all linear;
+    }
+
+    .sectionTitle {
+      font-family: Bold;
+      color: white;
+      font-size: 26px;
+      line-height: 24px;
+      margin-bottom: 2px;
+    }
+
+    .sectionDescription {
+      font-family: Regular;
+      font-size: 18px;
+      opacity: 0.5;
+    }
+  }
+
+  .articlesWrapper {
+    padding: 0px 7%;
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    overflow: auto;
+    height: 100%;
+    padding-bottom: 30px;
+
+    .articleItem {
+      margin: 8px 8px;
+    }
+  }
+}
+
+@media only screen and (min-width: $min_tablet) and (max-width: $max_tablet) {
+  .articlesWrapper {
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .articlesWrapper {
+    grid-template-columns: 100%;
+  }
+}

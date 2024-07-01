@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Timeless X",
+  "version": "0.1.28",
+  "action": {
+    "default_title": "Timeless X"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsiZssy/EbxBuqLhV1xmoSlvBsnH7b28qtwMTFmDjrLn7GiZUDqVpCdi75VsMI0cBoz/kh4q+TJkHzMfwOjwY+EEfNIRf3c+hay5WW8wVYBC9HuWLV0lbpWhqAfvV7d4JNaMHCVJpaac60Z+F7BYaUTTpUCliRaGk50nwSe0M3tQ87lE0VbRjtkBW+M0mc+SqNOZXdqKKpIDoJplFHzB0wd8bDfqoaCY3Xs8+KmCL+A7PFXXw2R2GMtfoQaCMxESK/xwxcCSt6pyBdUTa8VxSpNMvhjWA8srSN3QaMSh+ToBwrQjezUSl0cgEdOggyEW/wr1DYpfLh5ZWC8V/LdSwEwIDAQAB",
+  "description": "Your Browser Buddy",
+  "icons": {
+    "16": "public/assets/icons/logo.png",
+    "32": "public/assets/icons/logo.png",
+    "64": "public/assets/icons/logo.png",
+    "128": "public/assets/icons/logo.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+T",
+        "mac": "Command+T"
+      }
+    }
+  },
+  "background": {
+    "service_worker": "src/background/index.js",
+    "type": "module"
+  },
+  "chrome_url_overrides": {
+    "newtab": "src/index.html"
+  },
+  "permissions": ["storage", "geolocation", "tabs", "activeTab"],
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/logo.png", "assets/favicon.ico"],
+      "matches": ["https://keys.coinbase.com/*"],
+      "extension_ids": ["nkbihfbeogaeaoehlefnkodbefgpgknn", "ejbalbakoplchlghecdalmeeeajnimhm"]
+    }
+  ]
+}

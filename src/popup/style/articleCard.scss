@@ -1,0 +1,40 @@
+.articleCardContainer,
+.spindlCardContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  aspect-ratio: 1;
+
+  .thumbnailWrapper {
+    aspect-ratio: 1;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+
+    .thumbnail {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover !important;
+      border-radius: 12px;
+    }
+  }
+
+  .articleTitle,
+  .spindlTitle {
+    font-size: 14px;
+    margin: 7px 0px 0px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .author {
+    font-size: 12px;
+    opacity: 0.5;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+  }
+}

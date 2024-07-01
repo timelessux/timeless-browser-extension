@@ -1,0 +1,174 @@
+.box-grey {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow:
+    inset 0 0 1px 0 rgba(255, 255, 255, 0.3),
+    inset 1px 1px 4px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 22px;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+
+.box-light {
+  background: rgba(149, 149, 149, 0.25);
+  border: 0.25px solid rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+}
+
+.box-content {
+  // border-radius: 24px;
+  // background-color: rgba($color: #747480, $alpha: 0.12);
+  position: relative;
+  .title {
+    font-family: 'Heavy';
+    font-size: 22px;
+    word-break: break-word;
+  }
+
+  .sub-title {
+    font-family: 'Medium';
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    word-break: break-word;
+  }
+
+  .close-icon {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    border-radius: 50%;
+    color: rgba(224, 232, 255, 0.6);
+    cursor: pointer;
+  }
+
+  .content-wrapper {
+    .title {
+      font-family: 'Heavy';
+      font-size: 18px;
+      word-break: break-word;
+    }
+
+    .coins-box {
+      border-radius: 20px;
+      background-color: rgba($color: #747480, $alpha: 0.12);
+      width: max-content;
+      outline: none;
+      border: none;
+      color: #fff;
+    }
+
+    .coin-name,
+    .count {
+      font-size: 22px;
+      font-family: 'Regular';
+      color: #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .count {
+      font-size: 32px;
+    }
+
+    .price,
+    .status {
+      font-family: 'Medium';
+      font-size: 16px;
+      color: rgba($color: #e0e8ff, $alpha: 0.3);
+    }
+
+    .send-box,
+    .receive-box,
+    .recipient-box,
+    .asset-box {
+      input {
+        &::placeholder {
+          color: #fff !important;
+        }
+      }
+      .send-select {
+        background-color: transparent;
+      }
+
+      .title,
+      .user-id {
+        font-family: 'Regular';
+        color: rgba($color: #e0e8ff, $alpha: 0.3);
+        font-size: 15px;
+        word-break: break-word;
+      }
+
+      .info-address {
+        flex: 1;
+
+        input {
+          &::placeholder {
+            color: rgba($color: #fff, $alpha: 0.4) !important;
+          }
+        }
+      }
+
+      input {
+        outline: none;
+        width: 100%;
+        color: #fff;
+        background-color: transparent;
+        border: none;
+        &::placeholder {
+          color: rgba($color: #747480, $alpha: 0.36);
+        }
+      }
+
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      input[type='number'] {
+        -moz-appearance: textfield;
+      }
+    }
+
+    .text-transaction {
+      font-family: 'Bold';
+      color: rgba($color: #e0e8ff, $alpha: 0.3);
+      font-size: 14px;
+    }
+
+    .view-more {
+      font-family: 'Bold';
+      color: #fff;
+      font-size: 14px;
+    }
+  }
+}
+
+.total-box,
+.bridge-box {
+  height: 100%;
+  .title {
+    font-family: 'Bold';
+    font-size: 16px;
+    opacity: 0.4;
+    color: #fff !important;
+    word-break: break-word;
+  }
+
+  .confirm-button {
+    border-radius: 25px;
+  }
+  .price {
+    font-family: 'Heavy';
+    font-size: 22px;
+    color: #fff !important;
+  }
+  .status {
+    color: #fff !important;
+  }
+}

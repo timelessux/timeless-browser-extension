@@ -1,0 +1,213 @@
+.window-platter {
+  width: 100%;
+  height: 100%;
+  max-height: 720px;
+  max-width: 1192px;
+  border: 1px solid;
+  backdrop-filter: blur(50px);
+  background: rgba(149, 149, 149, 0.25);
+  border-radius: 46px;
+  border-color: rgba(255, 255, 255, 0.25);
+  transition: 0.2s all linear;
+  flex: 1;
+  overflow: hidden;
+
+  .change-page {
+    opacity: 0;
+    transition: 0.2s all linear;
+  }
+  &:hover {
+    .change-page {
+      opacity: 1;
+    }
+  }
+
+  &.--collapse-detail-token {
+    width: 775px;
+  }
+
+  .window-platter-header {
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    input {
+      &::placeholder {
+        color: #fff;
+      }
+    }
+
+    .button-header {
+      font-size: 20px;
+      width: 44px;
+      height: 44px;
+      transition: 0.2s all linear;
+    }
+  }
+
+  .window-platter-content {
+    flex: 1;
+    overflow: scroll;
+    &:has(.articlesWrapper) {
+      overflow: hidden;
+    }
+  }
+}
+
+.window-platter-telegram {
+  width: 100%;
+  height: 100%;
+  max-height: 720px;
+  border: 1px solid;
+  border-radius: 46px;
+  border-color: rgba(255, 255, 255, 0.25);
+  background: rgba(149, 149, 149, 0.25);
+  backdrop-filter: blur(50px);
+
+  .button-chat {
+    padding: 12px;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+  }
+
+  .group-button-change-chat-view {
+    box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 22px;
+    width: fit-content;
+    margin-left: calc(50% - 68px);
+    transform: translateX(calc(-50% + 44px));
+    .background {
+      background: rgba(0, 0, 0, 0.1);
+      box-shadow:
+        inset 0 0 1px 0 rgba(255, 255, 255, 0.3),
+        inset 1px 1px 4px 0 rgba(0, 0, 0, 0.08);
+      border-radius: 22px;
+
+      .button-custom {
+        border: none;
+        outline: none;
+        border-radius: 22px;
+        background: none;
+        color: rgba($color: #fff, $alpha: 0.3);
+        border: 0.5px solid transparent;
+        transition: 0.3s all linear;
+        &.--active {
+          color: #fff;
+          border: 0.5px solid rgba($color: #fff, $alpha: 0.2);
+          background: rgba(255, 255, 255, 0.1);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+
+          &:hover {
+            background: rgba(255, 255, 255, 0.1) !important;
+            cursor: default;
+          }
+        }
+      }
+    }
+  }
+
+  .window-platter-header {
+    width: 100%;
+    position: relative;
+    z-index: 3;
+
+    @media (min-width: 1200px) {
+      display: flex;
+    }
+
+    @media (max-width: 991px) {
+      display: grid;
+    }
+
+    .left-header {
+      width: 33%;
+      // background: rgba($color: #000000, $alpha: 0.08);
+      border-radius: 46px 0 0 0;
+
+      @media (max-width: 1199px) {
+        width: 100%;
+      }
+    }
+    .right-header {
+      width: auto;
+      flex: 1;
+    }
+  }
+
+  .window-platter-content {
+    height: calc(100vh - 89px);
+    overflow: scroll;
+  }
+
+  .left-content {
+    width: 33%;
+    height: 100%;
+    @media (max-width: 1199px) {
+      width: 100%;
+    }
+  }
+
+  .left-background {
+    width: 33%;
+    height: 100%;
+    background: #00000014;
+    position: absolute;
+    border-radius: 44px 0 0 44px;
+    pointer-events: none;
+    @media (max-width: 1199px) {
+      width: 100%;
+    }
+  }
+}
+
+.window-platter-social {
+  width: 100%;
+  height: 100%;
+  max-height: 720px;
+  border: 1px solid;
+  border-radius: 46px;
+  border-color: rgba(255, 255, 255, 0.25);
+  background: rgba(149, 149, 149, 0.25);
+  backdrop-filter: blur(50px);
+  position: relative;
+  z-index: 1;
+
+  .button-header {
+    font-size: 20px;
+    width: 44px;
+    height: 44px;
+    transition: 0.2s all linear;
+    &.--disabled {
+      cursor: default;
+    }
+  }
+
+  .window-platter-header {
+    width: 100%;
+    position: relative;
+    z-index: 3;
+
+    @media (min-width: 1200px) {
+      display: flex;
+    }
+
+    @media (max-width: 991px) {
+      display: grid;
+    }
+
+    .left-header {
+      width: 33%;
+      background: rgba($color: #000000, $alpha: 0.08);
+      border-radius: 46px 0 0 0;
+
+      @media (max-width: 1199px) {
+        width: 100%;
+      }
+    }
+  }
+
+  .window-platter-content {
+    height: calc(100vh - 40px);
+    overflow: scroll;
+  }
+}

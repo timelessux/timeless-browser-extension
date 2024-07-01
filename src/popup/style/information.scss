@@ -1,0 +1,118 @@
+.information-container {
+  border: 1px solid;
+  border-radius: 46px;
+  border-color: rgba(255, 255, 255, 0.25);
+  background: rgba(149, 149, 149, 0.25);
+  backdrop-filter: blur(50px);
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+  transition: 0.2s all linear;
+  position: relative;
+  z-index: 0;
+  max-height: 720px;
+  max-width: 390px;
+  min-width: 390px;
+  overflow: scroll;
+
+  &.--expanded {
+    transform: translateX(100%);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .background {
+    border-radius: 46px 46px 0 0;
+    overflow: hidden;
+    max-height: 150px;
+    .logo {
+      width: 100%;
+      height: 100%;
+      border-bottom: 1px solid rgba($color: #fff, $alpha: 0.25);
+
+      .image-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0 !important;
+        img {
+          object-fit: cover;
+          border-radius: 0 !important;
+        }
+      }
+    }
+  }
+  .header-info {
+    .info {
+      flex: 1;
+      word-break: break-word;
+      .name-and-handle {
+        .name {
+          font-family: "Bold";
+          font-size: 17px;
+        }
+        .handle {
+          font-family: "Medium";
+          font-size: 15px;
+          color: rgba($color: #fff, $alpha: 0.2);
+        }
+      }
+    }
+    .action {
+      width: 48px;
+      height: 48px;
+      background-color: rgba($color: #fff, $alpha: 0.25);
+      border-radius: 50%;
+    }
+  }
+  .bio {
+    word-break: break-word;
+  }
+
+  .attribute-item {
+    color: rgba($color: #fff, $alpha: 0.5);
+    word-break: break-word;
+    font-size: 13px;
+    margin-bottom: 8px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    a {
+      color: rgba($color: #fff, $alpha: 0.5);
+    }
+  }
+
+  .follow-status {
+    .following,
+    .follower {
+      .count {
+        font-family: "Bold";
+        font-size: 17px;
+      }
+      .text {
+        font-family: "Medium";
+        font-size: 15px;
+        color: rgba($color: #fff, $alpha: 0.5);
+      }
+    }
+  }
+
+  .group-button {
+    button {
+      cursor: default;
+      border: none;
+      outline: none;
+      border-radius: 12px;
+      background: rgba($color: #fff, $alpha: 0.08);
+      color: #fff;
+      padding: 0 10px;
+      font-family: "Medium";
+      font-size: 15px;
+      opacity: 0.5;
+      height: 29px;
+      &.--active {
+        opacity: 1;
+      }
+    }
+  }
+}

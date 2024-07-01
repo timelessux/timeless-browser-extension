@@ -1,0 +1,752 @@
+[
+  {
+    "avatar": "ipfs://bafybeiehsyi2xtlfr7zmsuadruhwvodc4sxs6oh57bzd3fhd2mcjsybaiy",
+    "bio": "Building @LensProtocol & @AaveAave",
+    "coverAvatar": "https://ik.imagekit.io/lens/media-snapshot/d310f9d93f984cb230de11cbc0a73aafe69abde1e26c4e770edfe582c6ece3ef.jpg",
+    "handle": "stani.lens",
+    "id": "lens-0x05",
+    "isFollowedByMe": true,
+    "name": "Stani",
+    "ownerAddress": "0x7241DDDec3A6aF367882eAF9651b87E1C7549Dff",
+    "totalCollects": 3701,
+    "totalFollowers": 97504,
+    "totalPosts": 2568,
+    "totalPublications": 10603,
+    "type": "LENS",
+    "createdAt": "2022-05-17T17:36:56+00:00",
+    "deleted": false,
+    "isDefault": false,
+    "isProviderDefault": false,
+    "attributes": [
+      {
+        "displayType": null,
+        "key": "projects",
+        "value": "[]",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "skills",
+        "value": "[]",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "experience",
+        "value": "[]",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "education",
+        "value": "[]",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "location",
+        "value": "",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "website",
+        "value": "https://lens.xyz",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "x",
+        "value": "",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "statusEmoji",
+        "value": "👋",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "statusMessage",
+        "value": "Hey",
+        "traitType": null
+      }
+    ],
+    "updatedAt": "2023-09-28T19:35:16.468789+00:00",
+    "originalUrl": "ar://pq3HwnGCwKFm633u7yzuo5zr3lU4r5hDeQQVqe-SLwY",
+    "wallet": {
+      "totalFollowers": 97510,
+      "totalFollowings": 2034
+    }
+  },
+  {
+    "avatar": "ipfs://Qmb4XppdMDCsS7KCL8nCJo8pukEWeqL4bTghURYwYiG83i/cropped_image.png",
+    "bio": "The Social Layer for Web3 🌿",
+    "coverAvatar": "ipfs://bafybeibjazctb3toaslk2su6cm64vsfumbin6y5nl5w4mwoxguyw6zfycy",
+    "handle": "lensprotocol",
+    "id": "lens-0x01",
+    "isFollowedByMe": true,
+    "name": "Lens Protocol 🌿",
+    "ownerAddress": "0x05092cF69BDD435f7Ba4B8eF97c9CAecF2BA69AD",
+    "totalCollects": 70720,
+    "totalFollowers": 118079,
+    "totalPosts": 243,
+    "totalPublications": 796,
+    "type": "LENS",
+    "createdAt": "2022-05-16T11:01:36+00:00",
+    "deleted": false,
+    "isDefault": false,
+    "isProviderDefault": false,
+    "attributes": [
+      {
+        "displayType": null,
+        "key": "twitter",
+        "value": "lensprotocol",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "location",
+        "value": "",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "website",
+        "value": "https://lens.xyz",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "x",
+        "value": "",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "statusEmoji",
+        "value": "",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "statusMessage",
+        "value": "",
+        "traitType": null
+      }
+    ],
+    "updatedAt": "2023-09-20T18:34:58.639633+00:00",
+    "originalUrl": "https://arweave.net/be7AVgY2rvgQMh2WT-ffieqOvj_VwjiBNpzvZn89gk8",
+    "wallet": {
+      "totalFollowers": 118079,
+      "totalFollowings": 2
+    }
+  },
+  {
+    "avatar": "ipfs://bafybeihq7bxptzguxeiwhqahzrpgvncnu7wbbi7dkevg462qdsfboxxg2e",
+    "bio": "engineering at @aaveaave.lens 👻 and @lensprotocol 🌿 // creator of hey.xyz 🌸 // fighting for human privacy 🛡️ // opinions are mine // he/him 🌈",
+    "coverAvatar": "https://ik.imagekit.io/lens/media-snapshot/c128caf6f69d5346b03dfb72e6981d97fcd7ecc13c4ce6d25a1e52cb2d38fa13.png",
+    "handle": "yoginth.lens",
+    "id": "lens-0x0d",
+    "isFollowedByMe": false,
+    "name": "Yoginth",
+    "ownerAddress": "0x03Ba34f6Ea1496fa316873CF8350A3f7eaD317EF",
+    "totalCollects": 6873,
+    "totalFollowers": 81507,
+    "totalPosts": 224,
+    "totalPublications": 1283,
+    "type": "LENS",
+    "createdAt": "2022-05-17T18:34:02+00:00",
+    "deleted": false,
+    "isDefault": false,
+    "isProviderDefault": false,
+    "attributes": [
+      {
+        "displayType": null,
+        "key": "twitter",
+        "value": "yogicodes",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "hasPrideLogo",
+        "value": "true",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "location",
+        "value": "India",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "website",
+        "value": "https://nf.td/yogi",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "x",
+        "value": "yogicodes",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "statusEmoji",
+        "value": "👋",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "statusMessage",
+        "value": "Hey",
+        "traitType": null
+      }
+    ],
+    "updatedAt": "2023-10-21T15:37:58.500917+00:00",
+    "originalUrl": "https://arweave.net/WyItaa-9BGfcgtajfc5NbwcNCHNOCn4vv-6ESJqijoc",
+    "wallet": {
+      "totalFollowers": 81515,
+      "totalFollowings": 200
+    }
+  },
+  {
+    "avatar": "https://lens.infura-ipfs.io/ipfs/QmQDEJeutE8UhcvdbQHJoFSSH3xf2Ze8pNpRtZoRpK8bAz",
+    "bio": "Growth @LensProtocol @AaveAave, CV#52, ex- @tiktok_us, views expressed = my own \n\n\"Not your keys, not your content\"\n\nLens is for creators",
+    "coverAvatar": null,
+    "handle": "bradorbradley.lens",
+    "id": "lens-0x24",
+    "isFollowedByMe": true,
+    "name": "Bradley Freeman",
+    "ownerAddress": "0x8eC94086A724cbEC4D37097b8792cE99CaDCd520",
+    "totalCollects": 430,
+    "totalFollowers": 61083,
+    "totalPosts": 663,
+    "totalPublications": 2944,
+    "type": "LENS",
+    "createdAt": "2022-05-18T13:17:28+00:00",
+    "deleted": false,
+    "isDefault": false,
+    "isProviderDefault": false,
+    "attributes": [
+      {
+        "displayType": null,
+        "key": "location",
+        "value": "San Juan, Puerto Rico",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "website",
+        "value": "https://www.tiktok.com/@brad_or_bradley",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "twitter",
+        "value": "brad_or_bradley",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "hasPrideLogo",
+        "value": "",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "statusEmoji",
+        "value": "🐝",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "statusMessage",
+        "value": "writing and making more videos this year",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "app",
+        "value": "Lenster",
+        "traitType": null
+      }
+    ],
+    "updatedAt": "2023-07-13T22:38:11.683319+00:00",
+    "originalUrl": "https://arweave.net/qV7ZOKC94XExMxagIa5nDTbSXkqCZfRX4272jpoOb9U",
+    "wallet": {
+      "totalFollowers": 61092,
+      "totalFollowings": 1311
+    }
+  },
+  {
+    "avatar": "ipfs://bafkreianwlir2groq5l52zdnikon4rtgjcostjosaadbbfekgpzhaprmri",
+    "bio": "⌐◨-◨ Stay curious 🌎 // Head of Growth @LensProtocol // Building the future of social\n\n🎨 : My Favourite Lens Collects -- > https://www.bonfire.xyz/christina/home\n📖:  Working in Public  \n\nBackground image - courtesy of collect by @mstrbstrd.lens",
+    "coverAvatar": "ipfs://bafkreid6t7rdu7s2winwdklkshvxx6qzv5z3s2nrg4tqtxlpawrjdze2gu",
+    "handle": "christina.lens",
+    "id": "lens-0x8e",
+    "isFollowedByMe": false,
+    "name": "Christina",
+    "ownerAddress": "0xA7d53695aF1FD11E0b75d37695290C102D59D743",
+    "totalCollects": 154,
+    "totalFollowers": 51457,
+    "totalPosts": 714,
+    "totalPublications": 3810,
+    "type": "LENS",
+    "createdAt": "2022-05-18T13:39:30+00:00",
+    "deleted": false,
+    "isDefault": false,
+    "isProviderDefault": false,
+    "attributes": [
+      {
+        "displayType": null,
+        "key": "twitter",
+        "value": "0xchristina",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "location",
+        "value": "",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "website",
+        "value": "https://mirror.xyz/chrissyb.eth",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "x",
+        "value": "",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "statusEmoji",
+        "value": "🤠",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "statusMessage",
+        "value": "Back to binging Lens content",
+        "traitType": null
+      }
+    ],
+    "updatedAt": "2023-09-27T16:38:26.838981+00:00",
+    "originalUrl": "https://arweave.net/Ch1FUhQUe2qvMZj4kWHxZuwM-fB3OgqhshBlselHgaI",
+    "wallet": {
+      "totalFollowers": 51465,
+      "totalFollowings": 1596
+    }
+  },
+  {
+    "avatar": "ipfs://bafybeihgymqvubldycb5nhrha6md6bveo64cjifagp5zbiuw3aizooowna",
+    "bio": "We built Aave Protocol, an open source and non-custodial liquidity protocol http://aave.com/discord ",
+    "coverAvatar": "ipfs://bafybeih4phgmtwfao7t4drtauv2e2zsgudqoeolbzy765mje36qdacpq2e",
+    "handle": "aaveaave.lens",
+    "id": "lens-0x02",
+    "isFollowedByMe": true,
+    "name": "Aave 👻",
+    "ownerAddress": "0x24A6D858342aaa20F1D058b8961Cd3e712C2f859",
+    "totalCollects": 10037,
+    "totalFollowers": 92299,
+    "totalPosts": 88,
+    "totalPublications": 123,
+    "type": "LENS",
+    "createdAt": "2022-05-17T16:16:06+00:00",
+    "deleted": false,
+    "isDefault": false,
+    "isProviderDefault": false,
+    "attributes": [
+      {
+        "displayType": null,
+        "key": "location",
+        "value": "London, England",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "website",
+        "value": "https://aave.com",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "twitter",
+        "value": "aaveaave",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "hasPrideLogo",
+        "value": "",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "statusEmoji",
+        "value": "",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "statusMessage",
+        "value": "",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "app",
+        "value": "Lenster",
+        "traitType": null
+      }
+    ],
+    "updatedAt": "2023-05-26T04:19:22.455722+00:00",
+    "originalUrl": "https://arweave.net/TH3RI2h73o-ewF91L5BgisUheyR5O61boDq4NRSqY28",
+    "wallet": {
+      "totalFollowers": 92299,
+      "totalFollowings": 0
+    }
+  },
+  {
+    "avatar": "https://lens.infura-ipfs.io/ipfs/QmRMXMDjCMf3LoWuJyC3EYn3bcitSXojmwXxQB4YeVi7V1",
+    "bio": "Co-Founder of @bellosights. Documenting the web3 creator economy at the Mint Podcast.",
+    "coverAvatar": "https://ddjmwf6041yq8.cloudfront.net/thumbnailDimension768/https://gateway.ipfscdn.io/ipfs/bafkreigy3e6io435skwnbgd4rgzpkcz7lluw65kwpub2k263d3fdsxqi7q",
+    "handle": "levychain.lens",
+    "id": "lens-0x0ce1",
+    "isFollowedByMe": true,
+    "name": "Levy.eth",
+    "ownerAddress": "0x74667801993b457B8ccF19d03bbBaA52b7ffF43B",
+    "totalCollects": 137,
+    "totalFollowers": 35368,
+    "totalPosts": 223,
+    "totalPublications": 471,
+    "type": "LENS",
+    "createdAt": "2022-05-18T17:11:58+00:00",
+    "deleted": false,
+    "isDefault": false,
+    "isProviderDefault": false,
+    "attributes": [
+      {
+        "displayType": null,
+        "key": "",
+        "value": "http://adamlevy.io/mint",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "",
+        "value": "levychain",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "",
+        "value": "Lenster",
+        "traitType": null
+      },
+      {
+        "displayType": "string",
+        "key": "",
+        "value": "",
+        "traitType": "location"
+      },
+      {
+        "displayType": "string",
+        "key": "",
+        "value": "",
+        "traitType": "website"
+      },
+      {
+        "displayType": "string",
+        "key": "",
+        "value": "",
+        "traitType": "github"
+      },
+      {
+        "displayType": "string",
+        "key": "",
+        "value": "",
+        "traitType": "twitter"
+      },
+      {
+        "displayType": "string",
+        "key": "",
+        "value": "",
+        "traitType": "linkedin"
+      },
+      {
+        "displayType": "string",
+        "key": "",
+        "value": "orb",
+        "traitType": "app"
+      },
+      {
+        "displayType": "json",
+        "key": "",
+        "value": "[]",
+        "traitType": "projects"
+      },
+      {
+        "displayType": "json",
+        "key": "",
+        "value": "[]",
+        "traitType": "skills"
+      },
+      {
+        "displayType": "json",
+        "key": "",
+        "value": "[]",
+        "traitType": "experience"
+      },
+      {
+        "displayType": "json",
+        "key": "",
+        "value": "[]",
+        "traitType": "education"
+      }
+    ],
+    "updatedAt": "2023-08-15T12:11:22.866450+00:00",
+    "originalUrl": "ar://fCuvpDZuvq71xtKoY0s83qWUEtsN3z3Gj164WU7ghhY",
+    "wallet": {
+      "totalFollowers": 35369,
+      "totalFollowings": 42
+    }
+  },
+  {
+    "avatar": "https://ik.imagekit.io/lens/media-snapshot/ffc718bceefa2a9c82cb26bced1f28d90159e83fb8dfb08afcbc866c8480ff26.jpg",
+    "bio": "VP Engineering - Lens",
+    "coverAvatar": "https://media.orb.ac/thumbnailDimension768/https://ik.imagekit.io/orbapp/tr:n-attachment,tr:di-placeholder.webp/https://lens.infura-ipfs.io/ipfs/bafkreifykzc2pun2awoz4pkoztxz3xigvbepqtihrcwaxlf3txjdy5476y",
+    "handle": "wagmi.lens",
+    "id": "lens-0x06",
+    "isFollowedByMe": false,
+    "name": "Josh",
+    "ownerAddress": "0x4A1a2197f307222cD67A1762D9A352F64558d9Be",
+    "totalCollects": 69,
+    "totalFollowers": 60076,
+    "totalPosts": 89,
+    "totalPublications": 603,
+    "type": "LENS",
+    "createdAt": "2022-05-17T18:05:56+00:00",
+    "deleted": false,
+    "isDefault": false,
+    "isProviderDefault": false,
+    "attributes": [
+      {
+        "displayType": null,
+        "key": "statusMessage",
+        "value": "scaling ",
+        "traitType": "string"
+      },
+      {
+        "displayType": null,
+        "key": "github",
+        "value": "joshstevens19",
+        "traitType": "string"
+      },
+      {
+        "displayType": null,
+        "key": "projects",
+        "value": "[]",
+        "traitType": "json"
+      },
+      {
+        "displayType": null,
+        "key": "skills",
+        "value": "[]",
+        "traitType": "json"
+      },
+      {
+        "displayType": null,
+        "key": "experience",
+        "value": "[]",
+        "traitType": "json"
+      },
+      {
+        "displayType": null,
+        "key": "education",
+        "value": "[]",
+        "traitType": "json"
+      },
+      {
+        "displayType": null,
+        "key": "linkedin",
+        "value": "",
+        "traitType": "string"
+      },
+      {
+        "displayType": null,
+        "key": "website",
+        "value": "",
+        "traitType": "string"
+      },
+      {
+        "displayType": null,
+        "key": "twitter",
+        "value": "devjoshstevens",
+        "traitType": "string"
+      },
+      {
+        "displayType": null,
+        "key": "location",
+        "value": "",
+        "traitType": "string"
+      },
+      {
+        "displayType": null,
+        "key": "app",
+        "value": "Buttrfly",
+        "traitType": "string"
+      }
+    ],
+    "updatedAt": "2023-07-19T11:53:02.719873+00:00",
+    "originalUrl": "https://arweave.net/pKIGqhYQ3ZjOgOv_M9gVh2eyYUF_3xxw_EysPu1huL0",
+    "wallet": {
+      "totalFollowers": 60114,
+      "totalFollowings": 165
+    }
+  },
+  {
+    "avatar": "ipfs://bafkreidhrc5z5356oyfmyqffuhgidvapmlco3uh5bbqp5kiqttvbv5eqxu",
+    "bio": "PM Polygon zkEVM, Venture Partner 3SE Holdings \nPast: @lensprotocol & @aaveaave.lens \nFounder @uproundvc & Core @ConstitutionDAO\n\nNot Financial Advice, Opinions are my own. Go Blue!",
+    "coverAvatar": null,
+    "handle": "davidev.lens",
+    "id": "lens-0x16",
+    "isFollowedByMe": true,
+    "name": "davidev.eth 💜",
+    "ownerAddress": "0x52EAF3F04cbac0a4B9878A75AB2523722325D4D4",
+    "totalCollects": 83,
+    "totalFollowers": 38620,
+    "totalPosts": 97,
+    "totalPublications": 275,
+    "type": "LENS",
+    "createdAt": "2022-05-18T13:03:32+00:00",
+    "deleted": false,
+    "isDefault": false,
+    "isProviderDefault": false,
+    "attributes": [
+      {
+        "displayType": null,
+        "key": "location",
+        "value": "NYC",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "website",
+        "value": "https://polygon.technology/",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "twitter",
+        "value": "davidesilverman",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "hasPrideLogo",
+        "value": "",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "statusEmoji",
+        "value": "🤠",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "statusMessage",
+        "value": "New Boot Goofin",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "app",
+        "value": "Lenster",
+        "traitType": null
+      }
+    ],
+    "updatedAt": "2023-05-26T04:19:06.773437+00:00",
+    "originalUrl": "https://arweave.net/HWYvgHjBV1wd5gnx9BVRVIxVJSSLZBgaVksF4AAg_60",
+    "wallet": {
+      "totalFollowers": 38620,
+      "totalFollowings": 221
+    }
+  },
+  {
+    "avatar": "https://lens.infura-ipfs.io/ipfs/QmVBfhfgfhGsRVxTNURVUgceqyzjdVe11ic5rCghmePuKX",
+    "bio": "Director of Developer Relations at @lensprotocol 🌿 & @aaveaave.lens 👻",
+    "coverAvatar": "ipfs://bafybeigyo7tq7afgf6htbhtre5fsbddlcrs6cn5uqrpxqvtbnujtvknkuu",
+    "handle": "nader.lens",
+    "id": "lens-0x28a2",
+    "isFollowedByMe": true,
+    "name": "Nader Dabit",
+    "ownerAddress": "0xB2Ebc9b3a788aFB1E942eD65B59E9E49A1eE500D",
+    "totalCollects": 593,
+    "totalFollowers": 20822,
+    "totalPosts": 498,
+    "totalPublications": 2375,
+    "type": "LENS",
+    "createdAt": "2022-05-25T20:40:10+00:00",
+    "deleted": false,
+    "isDefault": false,
+    "isProviderDefault": false,
+    "attributes": [
+      {
+        "displayType": null,
+        "key": "twitter",
+        "value": "dabit3",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "hasPrideLogo",
+        "value": "true",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "location",
+        "value": "United States",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "website",
+        "value": "https://nader.arweave.dev",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "x",
+        "value": "dabit3",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "statusEmoji",
+        "value": "",
+        "traitType": null
+      },
+      {
+        "displayType": null,
+        "key": "statusMessage",
+        "value": "",
+        "traitType": null
+      }
+    ],
+    "updatedAt": "2023-08-28T20:18:04.271490+00:00",
+    "originalUrl": "https://arweave.net/BzvrccErwaT9ogqm7o2vkp6_3owGVkWC9rXhjrzbMCg",
+    "wallet": {
+      "totalFollowers": 20828,
+      "totalFollowings": 1234
+    }
+  }
+]

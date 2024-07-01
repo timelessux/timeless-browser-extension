@@ -1,0 +1,214 @@
+.stash-group {
+  .three-dots-button {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    font-size: 34px;
+    font-family: "Regular";
+    background-color: #ffffff33;
+    transition: 0.2s all linear;
+    color: #fff;
+    outline: none;
+    border: none;
+  }
+
+  .box-stash {
+    border-radius: 40px;
+    font-family: "Bold";
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.96);
+    background-color: rgba(142, 136, 130, 1);
+    line-height: 22px;
+    min-width: 380px;
+    min-height: 374px;
+    max-width: 380px;
+    max-height: 380px;
+    backdrop-filter: blur(50px);
+    transition: 0.2s all linear;
+    overflow: hidden;
+    &.--active,
+    &:has(.stash-detail) {
+      max-height: 480px;
+    }
+  }
+
+  .stash-item {
+    width: 100%;
+    transition: 0.2s all linear;
+    border: 1px solid transparent !important;
+    font-family: "Medium";
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+    &:last-child {
+      margin-bottom: 20px;
+    }
+
+    .info {
+      .name {
+        font-family: "Medium";
+      }
+      .description {
+        font-family: "Regular";
+        word-break: break-word;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 24px;
+    }
+  }
+
+  .action-top {
+    opacity: 0;
+    transition: 0.2s all linear;
+    transform: translateY(-50%);
+    pointer-events: none;
+    width: 100%;
+    &.--active {
+      opacity: 1;
+      transform: translateY(0%);
+      pointer-events: auto;
+    }
+  }
+
+  .content-stash {
+    min-height: 300px;
+    max-height: 300px;
+    overflow: scroll;
+    transform: translateY(-25%);
+    transition: 0.2s all linear;
+
+    &.--active {
+      max-height: 316px;
+      transform: translateY(0);
+    }
+  }
+
+  .restore-button,
+  .stash-button {
+    font-family: "Bold";
+    border: none;
+    border-radius: 24px;
+    color: #fff;
+    background-color: #ffffff33;
+    transition: 0.2s all linear;
+    box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    min-width: 70px;
+    height: 26px;
+  }
+
+  .text-area-custom {
+    outline: none;
+    background: transparent;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    transition: 0.2s all linear;
+    resize: none;
+
+    &::placeholder {
+      color: #fff;
+    }
+
+    &:focus {
+      border: 1px solid #fff;
+      background-color: transparent !important;
+    }
+
+    &.--error {
+      border: 1px solid red;
+    }
+  }
+
+  .tabs-button-box-shadow {
+    box-shadow: 0 2px 4px #0000001a;
+  }
+}
+
+.ant-popover {
+  font-family: "Medium";
+  color: #fff;
+  .ant-popover-arrow {
+    &::before {
+      background: rgba(142, 136, 130, 0.96);
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    }
+  }
+  .ant-popover-content {
+    .ant-popover-inner {
+      backdrop-filter: blur(50px);
+      background: rgba(142, 136, 130, 0.96);
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+      padding: 0;
+    }
+  }
+
+  .ant-popover-inner-content {
+    color: #fff;
+  }
+}
+
+.stash-detail {
+  .back-button {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #ffffff33;
+    transition: 0.2s all linear;
+  }
+  .action-stash {
+    button {
+      font-family: "Medium";
+      font-size: 16px;
+      border: none;
+      border-radius: 24px;
+      color: #fff;
+      background-color: #ffffff33;
+      transition: 0.2s all linear;
+      box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.3);
+      border-radius: 20px;
+      border: none;
+      outline: none;
+      color: #fff;
+      min-width: 138px;
+      height: 36px;
+    }
+  }
+
+  .list-tab {
+    .container-tab {
+      color: #fff;
+      .tab {
+        .name {
+          transition: 0.2s all linear;
+          text-decoration: none;
+        }
+      }
+
+      &:hover {
+        .name {
+          text-decoration: underline;
+        }
+      }
+
+      &:last-child {
+        .border-bottom {
+          display: none;
+        }
+      }
+    }
+  }
+  .name {
+    font-family: "Medium";
+    font-size: 16px;
+  }
+}

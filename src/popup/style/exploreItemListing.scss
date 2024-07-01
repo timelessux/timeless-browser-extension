@@ -1,0 +1,13 @@
+.explore-page {
+  .exploreItemContainer {
+    height: 100%;
+    padding: 16px 0px;
+
+    .infiniteScrollContainer {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+  }
+}

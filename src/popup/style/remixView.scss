@@ -1,0 +1,193 @@
+.remixViewContainer {
+  height: 100%;
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+
+  .headerContainer {
+    position: absolute;
+    left: 24px;
+    top: 40px;
+    border: none;
+    background-color: transparent;
+    button {
+      border: none;
+      outline: none;
+      background-color: transparent;
+    }
+
+    .goBackButton {
+      font-size: 20px;
+      width: 44px;
+      height: 44px;
+      background-color: rgba($color: white, $alpha: 0.3);
+      transition: 0.2s all linear;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+    }
+  }
+
+  .card-remix {
+    img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+    .right {
+      .title {
+        font-size: 18px;
+        font-weight: 'Bold';
+      }
+
+      .description {
+        font-size: 14px;
+      }
+
+      .author {
+        font-size: 13px;
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .remix-box {
+    background: rgba(116, 116, 128, 0.12);
+    border-radius: 24px;
+    padding: 10px 16px;
+
+    .image-container {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 322/305;
+      object-fit: cover;
+      border: solid 1px rgba($color: #fff, $alpha: 0.5);
+    }
+
+    &.--error {
+      border: 1px solid #dc143c !important;
+    }
+
+    .textbox {
+      border: none;
+      outline: none;
+      min-height: 24px;
+    }
+
+    .textbox[placeholder]:empty:before {
+      content: attr(placeholder);
+      color: rgba($color: #fff, $alpha: 0.5);
+    }
+
+    .textbox[placeholder]:empty:focus:before {
+      content: '';
+    }
+
+    .input-box {
+      background: rgba(0, 0, 0, 0.1);
+      box-shadow:
+        inset 0 0 1px 0 rgba(255, 255, 255, 0.3),
+        inset 1px 1px 4px 0 rgba(0, 0, 0, 0.08);
+      border-radius: 10px;
+      color: #fff;
+      width: max-content;
+      transition: 0.2s all linear;
+      height: 100%;
+      border: 1px solid transparent !important;
+
+      &:focus-within {
+        border: 1px solid #fff !important;
+      }
+
+      &.--error {
+        border: 1px solid #dc143c !important;
+      }
+
+      input {
+        background: transparent;
+        color: #fff;
+        border: none;
+        outline: none;
+        transition: 0.2s all linear;
+
+        &::placeholder {
+          color: rgba($color: #fff, $alpha: 0.5);
+        }
+      }
+    }
+
+    .add-other-link {
+      opacity: 0.5;
+      transition: 0.2s all linear;
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    .add-button {
+      border-radius: 24px;
+      height: 44px;
+      font-size: 17px;
+      background-color: #ffffff33;
+      transition: 0.2s all linear;
+      color: #fff;
+      outline: none;
+      border: none;
+    }
+
+    .delete-button {
+      border-radius: 24px;
+      height: 44px;
+      font-size: 17px;
+      background-color: transparent;
+      transition: 0.2s all linear;
+      color: #dc143c;
+      outline: none;
+      border: 1px solid #dc143c;
+      &:hover {
+        color: #dc143c !important;
+      }
+    }
+  }
+
+  .remix-from {
+    .title {
+      font-size: 18px;
+      font-weight: 'Bold';
+    }
+
+    .description {
+      font-size: 14px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+
+    .tree-icon {
+      width: 7px;
+      height: 60px;
+    }
+  }
+  .info-item {
+    border-bottom: 1px solid rgba(149, 149, 149, 0.25);
+
+    &:last-child {
+      border: none;
+    }
+  }
+}

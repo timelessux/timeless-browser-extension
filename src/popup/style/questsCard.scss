@@ -1,0 +1,82 @@
+.questsCardContainer {
+  border-radius: 8px;
+  aspect-ratio: 1;
+  margin: 8px 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba($color: #959595, $alpha: 0.25);
+  cursor: pointer;
+
+  p {
+    margin-bottom: 0px;
+  }
+
+  .thumbnailWrapper {
+    padding: 16px 16px 0px 16px;
+
+    .skeleton {
+      max-width: 36%;
+      border-radius: 22px;
+    }
+
+    .thumbnailQuestCard {
+      width: 36%;
+      aspect-ratio: 1;
+      border-radius: 22px;
+      object-fit: contain;
+      background-color: rgba($color: #959595, $alpha: 0.25);
+    }
+  }
+
+  .titleWrapper {
+    flex: 1;
+    padding: 16px;
+
+    .title {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .rewards {
+      opacity: 0.5;
+    }
+  }
+
+  .divider {
+    height: 1px;
+    background-color: rgba($color: #fff, $alpha: 0.1);
+    margin: 0px 16px;
+  }
+
+  .footer {
+    padding: 16px;
+
+    .avatar-skeleton {
+      max-width: 20px;
+      border-radius: 50%;
+    }
+
+    .avatar {
+      max-height: 20px;
+      max-width: 20px;
+      border-radius: 50%;
+      background-color: rgba($color: #959595, $alpha: 0.25);
+      margin-right: 16px;
+    }
+
+    .reasonText {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      opacity: 0.5;
+      font-size: 14px;
+    }
+  }
+}

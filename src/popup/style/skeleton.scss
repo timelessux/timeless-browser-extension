@@ -1,0 +1,125 @@
+.skeleton-loader {
+  transition: 0.2s all linear;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.06) 25%,
+    rgba(0, 0, 0, 0.15) 37%,
+    rgba(0, 0, 0, 0.06) 63%
+  );
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+  z-index: 1;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.text-loader {
+  height: 10px;
+  border-radius: 5px;
+}
+
+.noti-skeleton {
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  border-radius: 16px;
+  .circle {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    min-height: 40px;
+    min-width: 40px;
+  }
+
+  .handle {
+    width: 40%;
+    max-width: 100px;
+    min-width: 50px;
+  }
+  .time {
+    width: 30%;
+    max-width: 80px;
+    min-width: 30px;
+  }
+  .action {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+    border-radius: 50%;
+  }
+}
+
+.skeleton-post-card {
+  .skeleton-post-card-col-left {
+    .avatar-author-skeleton {
+      width: 48px;
+      height: 48px;
+      min-width: 48px;
+      min-height: 48px;
+      border-radius: 50%;
+    }
+    .border-image {
+      width: 1px;
+      height: 100px;
+      border: 1px solid;
+      border-radius: 1px;
+      color: #fff;
+    }
+    .group-avatar {
+      .avt {
+        width: 30px;
+        height: 30px;
+        min-height: 30px;
+        min-width: 30px;
+        border-radius: 50%;
+        &:nth-child(2) {
+          margin-left: -12px;
+        }
+      }
+    }
+  }
+
+  .skeleton-button {
+    min-width: 130px;
+    background-color: #ffffff33;
+    border-radius: 50px;
+    height: 40px;
+  }
+
+  .info-loader {
+    width: 30%;
+    max-width: 100px;
+    min-width: 30px;
+  }
+}
+
+.action-skeleton {
+  .action {
+    width: 16px;
+    height: 16px;
+    min-height: 16px;
+    min-width: 16px;
+    border-radius: 50%;
+  }
+  .text {
+    width: 30px;
+  }
+}
+
+.reaction-skeleton {
+  .text {
+    width: 30px;
+  }
+}

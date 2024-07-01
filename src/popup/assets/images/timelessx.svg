@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="159px" height="158px" viewBox="0 0 159 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>timelessx</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#F2F2F3" offset="0%"></stop>
+            <stop stop-color="#F0F0F1" offset="49%"></stop>
+            <stop stop-color="#E9E9EA" offset="66%"></stop>
+            <stop stop-color="#DDDEE0" offset="79%"></stop>
+            <stop stop-color="#CCCED0" offset="89%"></stop>
+            <stop stop-color="#B6B9BC" offset="98%"></stop>
+            <stop stop-color="#B0B3B6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.0172384072%" y1="50%" x2="99.9827616%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#F2F2F3" offset="0%"></stop>
+            <stop stop-color="#F0F0F1" offset="49%"></stop>
+            <stop stop-color="#E9E9EA" offset="66%"></stop>
+            <stop stop-color="#DDDEE0" offset="79%"></stop>
+            <stop stop-color="#CCCED0" offset="89%"></stop>
+            <stop stop-color="#B6B9BC" offset="98%"></stop>
+            <stop stop-color="#B0B3B6" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="49.9910529%" cy="50.0017011%" fx="49.9910529%" fy="50.0017011%" r="50%" id="radialGradient-3">
+            <stop stop-color="#D33129" offset="0%"></stop>
+            <stop stop-color="#D13028" offset="54%"></stop>
+            <stop stop-color="#CA2E28" offset="73%"></stop>
+            <stop stop-color="#BE2B27" offset="87%"></stop>
+            <stop stop-color="#AD2726" offset="98%"></stop>
+            <stop stop-color="#AA2626" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="56.013884%" cy="132.082609%" fx="56.013884%" fy="132.082609%" r="128.026906%" id="radialGradient-4">
+            <stop stop-color="#D43128" offset="0%"></stop>
+            <stop stop-color="#D43229" offset="51%"></stop>
+            <stop stop-color="#D83930" offset="69%"></stop>
+            <stop stop-color="#DD453C" offset="82%"></stop>
+            <stop stop-color="#E5564D" offset="92%"></stop>
+            <stop stop-color="#EF6960" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chrome-Extension-|-Initial-screen-|-Unlock-password-Copy" transform="translate(-1552, -433)" fill-rule="nonzero">
+            <g id="Group-3" transform="translate(1431, 433)">
+                <g id="timelessx" transform="translate(121.0356, 0)">
+                    <path d="M79.0054651,-12.2659376 C90.30288,-12.2659376 99.4612444,-3.10757328 99.4612444,8.18984164 L99.4612444,149.811115 C99.4612444,161.10853 90.30288,170.266894 79.0054651,170.266894 C67.7080502,170.266894 58.5496859,161.10853 58.5496859,149.811115 L58.5496859,8.18984164 C58.5496859,-3.10757328 67.7080502,-12.2659376 79.0054651,-12.2659376 Z" id="Rectangle" fill="url(#linearGradient-1)" transform="translate(79.0055, 79.0005) rotate(45) translate(-79.0055, -79.0005)"></path>
+                    <path d="M78.9995218,-12.2668941 C90.2969367,-12.2668941 99.455301,-3.10852977 99.455301,8.18888515 L99.455301,149.810158 C99.455301,161.107573 90.2969367,170.265938 78.9995218,170.265938 C67.7021068,170.265938 58.5437425,161.107573 58.5437425,149.810158 L58.5437425,8.18888515 C58.5437425,-3.10852977 67.7021068,-12.2668941 78.9995218,-12.2668941 Z" id="Rectangle" fill="url(#linearGradient-2)" transform="translate(78.9995, 78.9995) rotate(135) translate(-78.9995, -78.9995)"></path>
+                    <circle id="Oval" fill="url(#radialGradient-3)" cx="127.964423" cy="128" r="13"></circle>
+                    <circle id="Oval" fill="url(#radialGradient-4)" opacity="0.47" cx="128.964423" cy="129" r="11"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

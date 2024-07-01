@@ -1,0 +1,34 @@
+$background: #0000001a;
+$hoverBackground: #959595a6;
+$colorNoActive: #ffffff33;
+$colorHover: #ffffff80;
+$colorActive: #fff;
+
+.select-container {
+  cursor: pointer;
+  background-color: $background;
+  width: max-content;
+
+  .options-container {
+    background-color: $background;
+    border-radius: 26px;
+    box-shadow: inset 0 0 1px 0 rgba(255, 255, 255, 0.3), inset 1px 1px 4px 0 rgba(0, 0, 0, 0.08);
+
+    .option-item {
+      transition: 0.2s all linear;
+      border-radius: 22px;
+      color: $colorNoActive;
+      border: 1px solid transparent;
+      &:hover {
+        background: $background;
+        color: $colorHover;
+        border: 1px solid #ffffff33;
+      }
+      &.--active {
+        background: $background;
+        color: $colorActive;
+        border: 1px solid #ffffff33;
+      }
+    }
+  }
+}

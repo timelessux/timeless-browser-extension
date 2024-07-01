@@ -1,0 +1,120 @@
+.exploreItemDetailContainer {
+  display: flex;
+  height: 100%;
+  border-radius: 35px;
+  background-color: rgba($color: white, $alpha: 0.3);
+  overflow: hidden;
+
+  .goBackButton {
+    font-size: 20px;
+    width: 44px;
+    height: 44px;
+    background-color: rgba($color: white, $alpha: 0.3);
+    transition: 0.2s all linear;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .thumbnailContainer {
+    flex: 4;
+
+    .thumbnail {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .rightContainer {
+    padding: 16px;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+
+    .headerContainer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+
+    .infoContainer {
+      margin-bottom: 16px;
+
+      p {
+        margin-bottom: 0px;
+      }
+
+      .title {
+        font-size: 30px;
+        font-weight: bold;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1; /* number of lines to show */
+        -webkit-box-orient: vertical;
+        margin-bottom: 6px;
+        cursor: pointer;
+      }
+
+      .description {
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5; /* number of lines to show */
+        -webkit-box-orient: vertical;
+        cursor: pointer;
+        opacity: 0.6;
+      }
+
+      .authorName {
+        font-size: 14px;
+        opacity: 0.6;
+        margin-bottom: 6px;
+      }
+    }
+
+    .subInfoContainer {
+      background-color: rgba($color: #000000, $alpha: 0.2);
+      padding: 8px 0px;
+      border-radius: 12px;
+      margin-bottom: 32px;
+
+      .divider {
+        height: 1px;
+        background-color: rgba($color: white, $alpha: 0.3);
+      }
+
+      p {
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
+        padding: 8px 16px;
+      }
+
+      span {
+        opacity: 0.4;
+        font-size: 14px;
+      }
+    }
+
+    span {
+      opacity: 0.6;
+      font-size: 14px;
+    }
+
+    .linkContainer {
+      align-self: center;
+      margin-top: 20px;
+
+      a {
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}

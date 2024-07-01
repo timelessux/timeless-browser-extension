@@ -1,0 +1,29 @@
+.list-notification {
+  font-family: "Regular";
+  min-width: 460px;
+  max-width: 460px;
+  overflow-x: hidden;
+  .title {
+    font-size: 24px;
+  }
+  .noti-item {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: #fff;
+    width: 100%;
+    transition: 0.2s all linear;
+
+    .title-item {
+      font-size: 16px;
+      font-family: "Bold";
+    }
+    // &:hover {
+    //   border: 1px solid #fff;
+    // }
+    .time {
+      color: rgba($color: #fff, $alpha: 0.5);
+      font-size: 14px;
+      font-family: "Regular";
+    }
+  }
+}

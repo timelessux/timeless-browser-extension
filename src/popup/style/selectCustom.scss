@@ -1,0 +1,38 @@
+.select-custom {
+  cursor: pointer;
+  border-radius: 22px;
+  .item-option {
+    cursor: pointer;
+    transition: 0.2s all linear;
+    border-radius: 18px;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.08) !important;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1) !important;
+    }
+  }
+
+  .special-item-option {
+    &:hover {
+      background: rgba(255, 255, 255, 0.08) !important;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1) !important;
+    }
+  }
+
+  .select-absolute {
+    border-radius: 32px;
+    max-height: 0px;
+    min-width: 250px;
+    // border-radius: 14px;
+    overflow: auto;
+    transition: 0.2s all linear;
+    visibility: hidden;
+    left: -10px;
+    z-index: 1000;
+
+    &.--open {
+      max-height: 285px;
+      visibility: visible;
+    }
+  }
+}

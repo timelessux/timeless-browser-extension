@@ -1,0 +1,41 @@
+.share-modal {
+  border-radius: 16px;
+  color: #fff;
+  font-family: "Bold";
+  .title {
+    font-size: 24px;
+  }
+  .sub-title {
+    font-family: "Regular";
+    font-size: 16px;
+  }
+  .close-icon {
+    top: 0px;
+    right: 0px;
+  }
+
+  .group-button-share {
+    button {
+      position: relative;
+      border-radius: 50%;
+      overflow: hidden;
+
+      .blur-color {
+        background: #0000005a;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.2s all linear;
+      }
+      &:hover {
+        .blur-color {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .copy-link {
+    border-radius: 10px;
+  }
+}

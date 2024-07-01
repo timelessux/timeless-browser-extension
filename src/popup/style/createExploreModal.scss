@@ -1,0 +1,115 @@
+.create-explore-modal {
+  color: #fff;
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+  .create-explore-inner {
+    border: 1px solid;
+    backdrop-filter: blur(50px);
+    background: rgba(149, 149, 149, 0.25);
+    border-radius: 46px;
+    border-color: rgba(255, 255, 255, 0.25);
+    font-family: 'Bold';
+    padding: 10px;
+  }
+  .close-bg {
+    background-color: #ffffff14;
+    padding: 5px;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+  }
+
+  .title-header {
+    font-size: 20px;
+  }
+  .create-explore-content {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-height: 316px;
+    max-height: 316px;
+
+    .image-container {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 322/305;
+      object-fit: cover;
+      border: solid 1px rgba($color: #fff, $alpha: 0.5);
+    }
+
+    .input-box {
+      background: rgba(0, 0, 0, 0.1);
+      box-shadow:
+        inset 0 0 1px 0 rgba(255, 255, 255, 0.3),
+        inset 1px 1px 4px 0 rgba(0, 0, 0, 0.08);
+      border-radius: 10px;
+      color: #fff;
+      width: max-content;
+      transition: 0.2s all linear;
+      height: 100%;
+      border: 1px solid transparent !important;
+
+      &:focus-within {
+        border: 1px solid #fff !important;
+      }
+
+      &.--error {
+        border: 1px solid #dc143c !important;
+      }
+
+      input {
+        background: transparent;
+        color: #fff;
+        border: none;
+        outline: none;
+        transition: 0.2s all linear;
+
+        &::placeholder {
+          opacity: 0.5;
+        }
+      }
+    }
+
+    .add-other-link {
+      opacity: 0.5;
+      transition: 0.2s all linear;
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    .add-button {
+      border-radius: 24px;
+      height: 44px;
+      font-size: 17px;
+      background-color: #ffffff33;
+      transition: 0.2s all linear;
+      color: #fff;
+      outline: none;
+      border: none;
+    }
+
+    .delete-button {
+      border-radius: 24px;
+      height: 44px;
+      font-size: 17px;
+      background-color: transparent;
+      transition: 0.2s all linear;
+      color: #dc143c;
+      outline: none;
+      border: 1px solid #dc143c;
+      &:hover {
+        color: #dc143c !important;
+      }
+    }
+
+    .ant-switch-checked {
+      background: #0fff50 !important;
+    }
+  }
+}

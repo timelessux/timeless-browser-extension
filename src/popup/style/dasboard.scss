@@ -1,0 +1,128 @@
+.dashboard-page {
+  .ctn-mantra {
+    margin-top: 40px;
+    min-height: 37.5px;
+
+    .mantra {
+      font-size: 25px;
+      font-family: 'Regular';
+      color: rgba($color: #fff, $alpha: 0.7);
+    }
+
+    .icon-option {
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.2s ease;
+    }
+
+    &:hover {
+      .icon-option {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+
+  .ctn-military-clock {
+    border-radius: 10px;
+    width: fit-content;
+    white-space: nowrap;
+    top: 50px;
+    transition: all 0.2s ease;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .military-clock-active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .date {
+    font-size: 30px;
+    font-family: 'Regular';
+    text-transform: uppercase;
+  }
+
+  .ctn-time {
+    max-height: 110px;
+    .time {
+      font-size: 100px;
+      font-family: 'Bold';
+    }
+
+    .ctn-icon {
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.2s ease;
+    }
+
+    &:hover {
+      .ctn-icon {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    &:has(.military-clock-active, .time-zone-active) {
+      .ctn-icon {
+        opacity: 1 !important;
+        visibility: visible !important;
+      }
+    }
+  }
+
+  .icon {
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.footer-text {
+  font-family: 'Regular';
+  font-size: 18px;
+  color: rgba($color: #fff, $alpha: 0.5);
+  text-align: center;
+  transform: translateY(0%);
+  transition: all 0.2s linear;
+  &:has(.author) {
+    &:hover {
+      transform: translateY(-100%);
+    }
+  }
+
+  .author {
+    opacity: 0;
+    transition: all 0.2s linear;
+    font-size: 15px;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+
+  svg {
+    transition: all 0.2s linear;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  &:hover {
+    .author {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+.time-zone-button {
+  &.--active {
+    background-color: rgba($color: #000, $alpha: 0.3) !important;
+  }
+}

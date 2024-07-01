@@ -1,0 +1,12 @@
+.notification-button {
+  border-radius: 8px;
+  background-color: #1a1b1f;
+  width: 44px;
+  aspect-ratio: 1;
+  cursor: pointer;
+  transition: 0.2s all linear;
+
+  &:hover {
+    background-color: #3c3c43;
+  }
+}

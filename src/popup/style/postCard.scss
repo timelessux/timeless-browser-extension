@@ -1,0 +1,24 @@
+.post-card {
+  border-bottom: 1px solid rgba($color: #fff, $alpha: 0.25);
+  .header-post-card {
+    .info {
+      flex: 1;
+    }
+    .handle,
+    .time-post {
+      color: #ffffff5a;
+      font-family: "Medium";
+      font-size: 15px;
+    }
+  }
+
+  .reaction {
+    font-size: 13px;
+    .comment-reaction,
+    .like-reaction,
+    .view-reaction,
+    .mirror-reaction {
+      opacity: 0.8;
+    }
+  }
+}

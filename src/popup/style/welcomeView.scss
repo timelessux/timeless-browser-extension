@@ -1,0 +1,71 @@
+.welcome-view {
+  z-index: 999;
+  .background-absolute {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba($color: #131314, $alpha: 0.5);
+    z-index: 0;
+    transition: 0.2s all linear;
+    &.--skip {
+      background-color: #000;
+      z-index: 1000;
+    }
+  }
+  .title {
+    z-index: 1;
+    font-size: 70px;
+    font-family: 'SF';
+    font-weight: bolder;
+    margin-bottom: 10px;
+    opacity: 0;
+    transform: translateY(50%);
+    transition: 0.3s all linear;
+  }
+  .sub-title {
+    z-index: 1;
+    font-size: 35px;
+    font-family: 'SF';
+    font-weight: bold;
+    margin-bottom: 10px;
+    opacity: 0.8 !important;
+    transform: translateY(50%);
+    transition: 0.3s all linear;
+  }
+
+  .description {
+    font-size: 24px;
+    opacity: 0.5 !important;
+    margin-bottom: 58px;
+  }
+
+  button {
+    z-index: 1;
+    border: none;
+    outline: none;
+    background: none;
+    color: #fff;
+    border-radius: 26px;
+    padding: 10px 25px;
+    font-family: 'SF';
+    transform: translateY(50%);
+    opacity: 0;
+    transition: 0.3s all linear;
+  }
+
+  .btn-take-tour {
+    z-index: 1;
+    background: rgba($color: #fff, $alpha: 0.07);
+  }
+
+  &.--open {
+    .title,
+    .sub-title,
+    button {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
